@@ -1,0 +1,181 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(gon.jpg);
+}
+.Login{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  width: 300px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 25px 25px rgba(0,0,0,.6);
+  border-bottom: 3px solid #03e9f4;
+  border-radius: 100px;
+  border-left: 1px solid #03e9f4;
+  border-top: 1px solid #03e9f4;
+  border-radius:30px;
+  border-right: 1px solid #03e9f4;
+  
+ 
+}
+.Login h3 {
+margin: 0 0 30px;
+padding: 0;
+color: black;
+text-align: center;
+font-size: 30px;
+font-family: serif;
+
+
+}
+.login .user-box input {
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: aqua;
+margin-bottom: 50px;
+border-left: 1px solid #03e9f4;
+outline: none;
+background: transparent;
+top: 100px;
+
+}
+.Login .user-box {
+  position: relative;
+}
+.Login .user-box label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+color: #03e9f4;
+pointer-events: none;
+font-size: 20px;
+transition: .5s;
+
+}
+.Login .user-box input:focus ~ label,
+.Login .user-box input:valid ~ label {
+  top: 20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 20px;
+}
+.Login p{
+  color: darkgray;
+  cursor: pointer;
+}
+.Login p span {
+  color: lightblue;
+  float: right;
+  right: 2px;
+}
+.Login form a{
+ position: relative; 
+ padding: 10px 20px;
+ color: lightgray;
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: none;
+ overflow: hidden;
+ transition: .5s;
+ margin-top: 40px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ border-radius: 20px;
+ left: 50px;
+  text-align: center;
+  top: 17px;
+
+}
+.Login a:hover { 
+ 
+  background: #03e9f4;
+  color: silver;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px ##03e9f4,
+             0 0 50px ##03e9f4,
+            0 0 100px ##03e9f4;
+}
+.Login  span{
+  position: absolute;
+  display: block;
+  left: 190px;
+}
+.Enter a span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4;
+  animation: animatedbtn 1s linear infinite;
+  
+}
+@keyframes animatedbtn{
+0% {
+left: -100%;
+}
+ 50%,100% {
+   left: 100%;
+  }
+}
+.Enter a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #03e9f4;
+  animation: animatedbtn 1s linear infinite;
+  animation-delay: .25s;
+}
+@keyframes animatedbtn2{
+0% {
+left: -100%;
+}
+ 50%,100% {
+   left: 100%;
+  }
+}
+.Enter a span:nth-child(3){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #03e9f4;
+  animation: animatedbtn 1s linear infinite;
+  animation-delay: .25s;
+}
+@keyframes animatedbtn3{
+0% {
+left: -100%;
+}
+ 50%,100% {
+   left: 100%;
+  }
+}
+.Enter a span:nth-child(4){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #03e9f4;
+  animation: animatedbtn 1s linear infinite;
+  animation-delay: .25s;
+}
+@keyframes animatedbtn4{
+0% {
+left: -100%;
+}
+ 50%,100% {
+   left: 100%;
+  }
+}
+
